@@ -36,5 +36,6 @@ private:
 /*
 * Put your internal data structures and members here
 */
-	char* data;
+	char* t_data;
+	size_t t_length;
 };
