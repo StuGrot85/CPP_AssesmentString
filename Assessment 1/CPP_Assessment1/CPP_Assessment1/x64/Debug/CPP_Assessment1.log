@@ -1,0 +1,9 @@
+﻿  String.cpp
+D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(29,1): error C4716: 'String::Append': must return a value
+D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(34,1): error C4716: 'String::ToLower': must return a value
+D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(39,1): error C4716: 'String::ToUpper': must return a value
+D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(54,1): error C4716: 'String::ReadFromConsole': must return a value
+D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(59,1): error C4716: 'String::WriteToConsole': must return a value
+D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(74,1): error C4716: 'String::operator[]': must return a value
+D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(69,1): error C4716: 'String::operator[]': must return a value
+D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(79,1): error C4716: 'String::operator=': must return a value
