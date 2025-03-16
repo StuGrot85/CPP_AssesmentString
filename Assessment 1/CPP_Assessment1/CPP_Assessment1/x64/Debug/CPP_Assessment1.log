@@ -1,9 +1,37 @@
 ﻿  String.cpp
-D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(29,1): error C4716: 'String::Append': must return a value
-D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(34,1): error C4716: 'String::ToLower': must return a value
-D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(39,1): error C4716: 'String::ToUpper': must return a value
-D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(54,1): error C4716: 'String::ReadFromConsole': must return a value
-D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(59,1): error C4716: 'String::WriteToConsole': must return a value
-D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(74,1): error C4716: 'String::operator[]': must return a value
-D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(69,1): error C4716: 'String::operator[]': must return a value
-D:\AIE Programming Course\Introduction to C++\Assessments\String.cpp(79,1): error C4716: 'String::operator=': must return a value
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(30,2): error C2561: 'String::Length': function must return a value
+      D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(26,16):
+      see declaration of 'String::Length'
+  
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(37,2): error C2561: 'String::Append': function must return a value
+      D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(33,17):
+      see declaration of 'String::Append'
+  
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(44,2): error C2561: 'String::ToLower': function must return a value
+      D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(40,17):
+      see declaration of 'String::ToLower'
+  
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(51,2): error C2561: 'String::ToUpper': function must return a value
+      D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(47,17):
+      see declaration of 'String::ToUpper'
+  
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(68,2): error C2561: 'String::ReadFromConsole': function must return a value
+      D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(64,17):
+      see declaration of 'String::ReadFromConsole'
+  
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(74,2): error C2561: 'String::WriteToConsole': function must return a value
+      D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(71,17):
+      see declaration of 'String::WriteToConsole'
+  
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(86,2): error C2561: 'String::operator []': function must return a value
+      D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(82,15):
+      see declaration of 'String::operator []'
+  
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(93,2): error C2561: 'String::operator []': function must return a value
+      D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(89,21):
+      see declaration of 'String::operator []'
+  
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(100,2): error C2561: 'String::operator =': function must return a value
+      D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(96,17):
+      see declaration of 'String::operator ='
+  
