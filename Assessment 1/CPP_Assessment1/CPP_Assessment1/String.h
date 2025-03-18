@@ -4,7 +4,7 @@ class String
 {
 public:
 	String();
-	String(const char* _str, const char* _str2);
+	String(const char* _str);
 
 	String(const String& _other);
 
@@ -12,7 +12,7 @@ public:
 
 public:
 	size_t Length() const;
-	String& Append(const String& _str, const String& _str2);
+	String& Append(const String& _str);
 
 	String& ToLower();
 	String& ToUpper();
@@ -36,9 +36,6 @@ private:
 	/*
 	* Put your internal data structures and members here
 	*/
-	const char* data = "Hello";
-	const char* data2 = "World";
-
-
-
+	char* data;
+	
 };

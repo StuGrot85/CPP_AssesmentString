@@ -1,4 +1,3 @@
 ﻿  String.cpp
-D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(118,1): warning C4172: returning address of local variable or temporary 
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-D:\AIE Programming Course\Introduction to C++\Part 1\Tutorials\Introduction to CPP\x64\Debug\CPP_Assessment1.exe : fatal error LNK1120: 1 unresolved externals
+D:\AIE Programming Course\Introduction to C++\Assessments 1\CPP_AssesmentString\Assessment 1\CPP_Assessment1\CPP_Assessment1\String.cpp(32,7): warning C4101: 'data': unreferenced local variable
+  CPP_Assessment1.vcxproj -> D:\AIE Programming Course\Introduction to C++\Part 1\Tutorials\Introduction to CPP\x64\Debug\CPP_Assessment1.exe
