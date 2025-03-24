@@ -107,7 +107,7 @@ String& String::ReadFromConsole()
 
 String& String::WriteToConsole()
 {
-	std::cout << data << std::endl;
+	std::cout << data << std::endl; //writes the data to the console
 	return *this;
 
 }
@@ -132,7 +132,6 @@ char& String::operator[](size_t _index)
 
 const char& String::operator[](size_t _index) const
 {
- 
 	const char& result = data[_index];
 	return result;
 }

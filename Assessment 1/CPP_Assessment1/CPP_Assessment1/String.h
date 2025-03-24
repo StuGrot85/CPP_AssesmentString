@@ -34,6 +34,6 @@ public:
 
 private:
 
-	char* data;
+	char* data; 
 	
 };
