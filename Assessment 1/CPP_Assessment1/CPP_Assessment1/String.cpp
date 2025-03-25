@@ -91,10 +91,10 @@ int String::FindCharacter(const char _chr)
 int String::Replace(const char _find, const char _replace)
 {	
 	char * position = strrchr(data, _find);
-	* position = _replace;
+	* position = _replace; //overwites the character at the pointer position 
 
 
-	return position -& data[0];
+	return position -& data[0]; //calculates the offset of the position relative to the string
 }
 
 String& String::ReadFromConsole()
@@ -132,13 +132,13 @@ char& String::operator[](size_t _index)
 
 const char& String::operator[](size_t _index) const
 {
-	const char& result = data[_index];
-	return result;
+	const char& result = data[_index]; //creates a reference to the character
+	return result; 
 }
 
 String& String::operator=(const String& _str)
 {
-	strcpy_s(data, strlen(_str.data) + 1, _str.data);
+	strcpy_s(data, strlen(_str.data) + 1, _str.data); // copys the _str.data to data  using strcpy_s
 	return *this;
 }
 
@@ -147,7 +147,7 @@ bool String::operator<(const String& _str)
 	int size1 = strlen(data);
 	int size2 = strlen(_str.data);
 
-	if (size1 < size2)
+	if (size1 < size2)// if statement to check if the length of the string is less then the other
 	{
 		return true;
 	}
