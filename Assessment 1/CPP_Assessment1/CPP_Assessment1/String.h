@@ -32,6 +32,8 @@ public:
 	String& operator=(const String& _str);
 	bool operator<(const String& _str);
 
+	char* getdata() { return data;};
+
 private:
 
 	char* data; 

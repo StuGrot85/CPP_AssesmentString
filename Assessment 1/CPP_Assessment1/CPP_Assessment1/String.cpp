@@ -3,7 +3,8 @@
 
 String::String()
 {
-
+	data = new char[1];
+	data[0] = '\0';
 }
 
 String::String(const char* _str)
@@ -14,12 +15,13 @@ String::String(const char* _str)
 
 String::String(const String& _other)
 {
+	data = new char[strlen(_other.data) + 1];// assign data to new char to allocate array size and +1 adds null terminator as strlen doesnt do it.
 	strcpy_s(data, strlen(_other.data) + 1, _other.data); //destination (first), Length size of char (middle), source (Last) 
 }
 
 String::~String()
 {
-
+	delete[] data; //deletes the data array 
 }
 
 size_t String::Length() const
@@ -32,7 +34,7 @@ String& String::Append(const String& _str)
 	size_t Length = strlen(data) + strlen(_str.data) + 1; // size_t Length stores buffer size for both strings 
 	char* dataArray = new char[Length]; // delcares a point to dataArray to hold the address
 	dataArray[0] = '\0'; //makes dataArray as an empty string 
-	strcat_s(dataArray, Length, data); //saftley append the data with no buffer overflows
+	strcat_s(dataArray, Length, data); //safetly append the data with no buffer overflows
 	strcat_s(dataArray, Length, _str.data);
 
 	delete[] data; //deletes the data array 
@@ -101,6 +103,8 @@ String& String::ReadFromConsole()
 {
 	char* c = new char[999]; //allocates character array and set buffer to 999 bytes
 	std::cin.getline(c, 999, '\n'); //reads the line of input from the user
+	delete[] data; //deletes the data array
+	data = c;
 
 	return *this;
 }
