@@ -1,9 +1,31 @@
 #include "String.h"
 #include "iostream"
+#include <fstream>
+#include <ctime>
 
 
 int main() // added alot of couts to and \n for easier read on the console 
+
 {
+	std::fstream file;//namespace
+	file.open("TestLog", std::ios::out | std::ios::app); // opens log file
+
+	if (!file.is_open()) // if statement if not open tell me in console
+	{
+		std::cout << "File did not open";
+	}
+
+	// add code here to implement tests for each function 
+	// 
+	// Date: Time: successful 100%
+	// e.g. Test 0 - Length -  Successful
+	// e.g Test 1 - Append - Successful
+
+	file.close(); //close file
+
+
+
+
 	std::cout << "Please type your name. \n" << std::endl;
 	char* c = new char[999];
 	std::cin.getline(c, 999, '\n');
