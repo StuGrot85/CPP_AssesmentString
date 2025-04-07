@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS //use it to get rid of the ctime warning so I could use the function
 #include "String.h"
 #include "iostream"
 #include <fstream>
@@ -16,10 +17,36 @@ int main() // added alot of couts to and \n for easier read on the console
 	}
 
 	// add code here to implement tests for each function 
-	// 
-	// Date: Time: successful 100%
-	// e.g. Test 0 - Length -  Successful
-	// e.g Test 1 - Append - Successful
+
+	//Date: 5/02/2015 Time: 13:48:00 Successful 50.00% 
+	// Test 0 Length Successful
+	//	Test 1 CharAt Successful
+	//	Test 2 EqualTo Failed
+	//	Test 3 Append Failed
+
+	//	Date : 6 / 02 / 2015 Time : 12 : 27 : 00 Successful 75.00 %
+	//	Test 0 Length Successful
+	//	Test 1 CharAt Successful
+	//	Test 2 EqualTo Successful
+	//	Test 3 Append Failed
+
+	time_t rawtime;
+	time(&rawtime);
+	
+	file << std::endl << std::endl;
+	file << ctime(&rawtime) << std::endl << std::endl;
+
+
+
+	String Test0 = String("Test 0");// testing length of string
+
+	if (Test0.Length() == 6)
+	{
+		file << "Test 0 - Length" << "Successful";
+	}
+	else
+		file << "Test 0 - Length" << "Fail"; 
+
 
 	file.close(); //close file
 
