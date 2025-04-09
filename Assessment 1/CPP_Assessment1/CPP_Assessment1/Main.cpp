@@ -34,8 +34,12 @@ int main() // added alot of couts to and \n for easier read on the console
 
 	time_t rawtime;
 	time(&rawtime);
+	int successCount = 0;
+	
 
 	file << std::endl << std::endl;
+
+	file << ctime(&rawtime)<< std::endl;
 
 	// Testing Sring Length
 	String Test0 = String("Test 0");// testing length of string
@@ -43,11 +47,13 @@ int main() // added alot of couts to and \n for easier read on the console
 	if (Test0.Length() == 6)
 	{
 		file << "Test 0 - Length" << " = " << "Successful";
+		successCount += 1;
 	}
 	else
 		file << "Test 0 - Length" << " = " << "Fail";
 
 	file << std::endl << std::endl;// Line break
+
 
 	// Testing Append Function
 	String Test1 = String("Cheese");
@@ -59,6 +65,7 @@ int main() // added alot of couts to and \n for easier read on the console
 	if (Test1 == Answer1)
 	{
 		file << "Test 1 - Append" << " = " << "Successful";
+		successCount += 1;
 	}
 	else
 		file << "Test 1 - Append" << " = " << "Fail";
@@ -71,6 +78,7 @@ int main() // added alot of couts to and \n for easier read on the console
 	if (Test2.ToLower() == "pickles")
 	{
 		file << "Test 2 - ToLower" << " = " << "Successful";
+		successCount += 1;
 	}
 	else
 		file << "Test 2 - ToLower" << " = " << "Fail";
@@ -83,6 +91,7 @@ int main() // added alot of couts to and \n for easier read on the console
 	if (Test3.ToUpper() == "LETTUCE")
 	{
 		file << "Test 3 - ToUpper" << " = " << "Successful";
+		successCount += 1;
 	}
 	else
 		file << "Test 3 - ToUpper" << " = " << "Fail";
@@ -95,9 +104,43 @@ int main() // added alot of couts to and \n for easier read on the console
 		Test4.FindCharacter('p') < 0)
 	{
 		file << "Test 4 - FindCharacter" << " = " << "Successful";
+		successCount += 1;
 	}
 	else
 		file << "Test 4 - FindCharacter" << " = " << "Fail";
+
+	file << std::endl << std::endl;
+
+	//Testing to Replace Function
+	String Test5 = String("Onion");
+	int resultReplace = Test5.Replace('n', 'p');
+
+	if (resultReplace == 4 && strcmp(Test5.getdata(), "Oniop")== 0)//compares a char array to a string
+	{
+		file << "Test 5 - Replace " << " = " << "Successful";
+		successCount += 1;
+	}
+	else
+		file << "Test 5 - Replace "<< " = " << "Fail";
+
+	file << std::endl << std::endl;
+
+	String Test6 = String("Bun");
+	String Test6a = String("Bun");
+	String Test6b = String("NoBun");
+
+	if (Test6 == Test6a)
+	{
+		file << "Test 6 - Operator Compare" << " = " << "Successful";
+		successCount += 1;
+	}
+	else
+		file << "Test 6 - Operator Compare" << " = " << "Fail";
+
+	file << std::endl << std::endl; // Line break
+
+	double percentage = successCount / 7.0 * 100;
+	file << "Percentage Successful " << percentage << "%" << std::endl;
 
 	file << std::endl << std::endl;
 

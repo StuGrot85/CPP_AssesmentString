@@ -13,3 +13,435 @@ Test 3 - ToUpper  Successful
 
 Test 4 - FindCharacter  Successful
 
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace = Successful
+
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace = Fail
+
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+Wed Apr  9 21:24:07 2025
+
+
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+
+
+Wed Apr  9 21:24:42 2025
+
+
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+
+
+Wed Apr  9 21:32:15 2025
+0
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+
+
+Wed Apr  9 21:34:56 2025
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+
+
+Wed Apr  9 21:37:21 2025
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+Percentage Successful100%
+
+
+Wed Apr  9 21:38:31 2025
+
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+Percentage Successful 83.3333%
+
+
+Wed Apr  9 21:47:51 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+Percentage Successful 83.3333%
+
+
+Wed Apr  9 21:48:53 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Fail
+
+Percentage Successful 83.3333%
+
+
+
+
+Wed Apr  9 21:53:52 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop result 4 = Fail
+
+Percentage Successful 83.3333%
+
+
+
+
+Wed Apr  9 21:55:36 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Opiop result 1 = Fail
+
+Percentage Successful 83.3333%
+
+
+
+
+Wed Apr  9 21:57:07 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Onion result 4 = Fail
+
+Percentage Successful 83.3333%
+
+
+
+
+Wed Apr  9 21:59:34 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+
+
+Wed Apr  9 21:59:47 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop result  = Fail
+
+Percentage Successful 83.3333%
+
+
+
+
+Wed Apr  9 22:00:28 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+
+
+Wed Apr  9 22:07:34 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop result 4 = Fail
+
+Percentage Successful 83.3333%
+
+
+
+
+Wed Apr  9 22:08:44 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop result 4 = Fail
+
+Percentage Successful 83.3333%
+
+
+
+
+Wed Apr  9 22:09:31 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Successful
+
+Percentage Successful 100%
+
+
+
+
+Wed Apr  9 22:16:09 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop result 4 = Fail
+
+Percentage Successful 83.3333%
+
+
+
+
+Wed Apr  9 22:16:43 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace Oniop = Successful
+
+Percentage Successful 100%
+
+
+
+
+Wed Apr  9 22:29:53 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace  = Successful
+
+Test 6 - Operator Compare = Successful
+
+Percentage Successful 100%
+
+
