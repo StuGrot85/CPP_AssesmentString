@@ -1,18 +1,15 @@
-Test 0 - LengthFailTest 0 - LengthSuccessful
-
-1744027234
-
-Test 0 - LengthSuccessful
-
-1744027289
-
-Test 0 - LengthSuccessful
-
-1744029290
-
-Test 0 - LengthSuccessful
-
-Mon Apr  7 22:06:03 2025
 
 
-Test 0 - LengthSuccessful
+Tue Apr  8 17:42:10 2025
+
+
+Test 0 - Length  Successful
+
+Test 1 - Append  Successful
+
+Test 2 - ToLower  Successful
+
+Test 3 - ToUpper  Successful
+
+Test 4 - FindCharacter  Successful
+
