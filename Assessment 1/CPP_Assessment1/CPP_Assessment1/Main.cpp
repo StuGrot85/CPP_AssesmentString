@@ -125,6 +125,8 @@ int main() // added alot of couts to and \n for easier read on the console
 
 	file << std::endl << std::endl;
 
+	//Testing to Operator == Function
+
 	String Test6 = String("Bun");
 	String Test6a = String("Bun");
 	String Test6b = String("NoBun");
@@ -139,10 +141,44 @@ int main() // added alot of couts to and \n for easier read on the console
 
 	file << std::endl << std::endl; // Line break
 
-	double percentage = successCount / 7.0 * 100;
-	file << "Percentage Successful " << percentage << "%" << std::endl;
+
+	//Testing to Operator [] Function
+
+	String Test7 = String("Sesame");
+	Test7[0] = 's';
+
+	if (Test7[0] == 's')// finds the referenced character
+	{
+		file << "Test 7 - Operator [] - " <<" the character of location 0 = " << Test7[0] << " = " << "Successful";
+		successCount += 1;
+	} else {
+		file << "Test 7 - Operator [] " << " = " << "Fail";
+	}
+
+	file << std::endl << std::endl;// Line break
+
+	//Testing to Operator < Function on how many meat pattie the cheese burger has.
+
+	int Test8 = 1;
+	int Test8a = 2;
+
+	if (Test8 < Test8a)// is test 8 less than test 8a
+	{
+		file << "Test 8 - Operator <" << " = " << "Successful" << " You have 1 meat pattie instead of 2";
+		successCount += 1;
+	}
+	else {
+		file << "Test 8 - Operator [] " << " = " << "Fail" << " you have 2 meat patties";
+	}
+
+	file << std::endl << std::endl;// Line break
+
+
+	double percentage = successCount / 9.0 * 100; // give a percantage each test
+	file << "Percentage Successful " << percentage << "%" << std::endl; // prints to file 
 
 	file << std::endl << std::endl;
+
 
 	file.close(); //close file
 
