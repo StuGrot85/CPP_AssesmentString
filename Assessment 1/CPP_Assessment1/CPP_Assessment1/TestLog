@@ -539,3 +539,103 @@ Test 8 - Operator < = SuccessfulYou have 1 meat pattie instead of 2
 Percentage Successful 100%
 
 
+
+
+Wed Apr 16 20:36:56 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace  = Successful
+
+Test 6 - Operator Compare = Successful
+
+Test 7 - Operator [] -  the character of location 0 = s = Successful
+
+Test 8 - Operator < = Successful You have 1 meat pattie instead of 2
+
+Percentage Successful 100%
+
+
+
+
+Sat Apr 26 21:02:02 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace  = Successful
+
+Test 6 - Operator Compare = Successful
+
+Test 7 - Operator [] -  the character of location 0 = s = Successful
+
+Test 8 - Operator < = Successful You have 1 meat pattie instead of 2
+
+Percentage Successful 100%
+
+
+
+
+Sat Apr 26 21:52:18 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace  = Successful
+
+Test 6 - Operator Compare = Successful
+
+Test 7 - Operator [] -  the character of location 0 = s = Successful
+
+Test 8 - Operator < = Successful You have 1 meat pattie instead of 2
+
+Percentage Successful 100%
+
+
+
+
+Sat Apr 26 21:53:12 2025
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace  = Successful
+
+Test 6 - Operator Compare = Successful
+
+Test 7 - Operator [] -  the character of location 0 = s = Successful
+
+Test 8 - Operator < = Successful
+
+Percentage Successful 100%
+
+

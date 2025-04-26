@@ -115,7 +115,7 @@ int main() // added alot of couts to and \n for easier read on the console
 	String Test5 = String("Onion");
 	int resultReplace = Test5.Replace('n', 'p');
 
-	if (resultReplace == 4 && strcmp(Test5.getdata(), "Oniop")== 0)//compares a char array to a string
+	if (resultReplace == 2 && strcmp(Test5.getdata(), "Opiop")== 0)//compares a char array to a string
 	{
 		file << "Test 5 - Replace " << " = " << "Successful";
 		successCount += 1;
@@ -157,18 +157,18 @@ int main() // added alot of couts to and \n for easier read on the console
 
 	file << std::endl << std::endl;// Line break
 
-	//Testing to Operator < Function on how many meat pattie the cheese burger has.
+	//Testing to Operator < Function
 
-	int Test8 = 1;
-	int Test8a = 2;
+	String Test8 = String("Meat");
+	String Test8a = String("Meatier");
 
 	if (Test8 < Test8a)// is test 8 less than test 8a
 	{
-		file << "Test 8 - Operator <" << " = " << "Successful" << " You have 1 meat pattie instead of 2";
+		file << "Test 8 - Operator <" << " = " << "Successful";
 		successCount += 1;
 	}
 	else {
-		file << "Test 8 - Operator [] " << " = " << "Fail" << " you have 2 meat patties";
+		file << "Test 8 - Operator [] " << " = " << "Fail";
 	}
 
 	file << std::endl << std::endl;// Line break

@@ -91,12 +91,17 @@ int String::FindCharacter(const char _chr)
 }
 
 int String::Replace(const char _find, const char _replace)
-{	
-	char * position = strrchr(data, _find);
-	* position = _replace; //overwites the character at the pointer position 
+{
+	int counter = 0; 
+	char* findCharacter = strchr(data, _find); // this fucntion find a charcter position of the character in the string
 
+	while (findCharacter != NULL) { // while loop  if character is found and is true then run loop
 
-	return position -& data[0]; //calculates the offset of the position relative to the string
+		*findCharacter = _replace; // points to the address of character and replaces it
+		findCharacter = strchr(data, _find); // assigning a new character if find 
+		counter++; // every loop add 1 
+	}
+	return counter; // returns counter
 }
 
 String& String::ReadFromConsole()
@@ -148,15 +153,22 @@ String& String::operator=(const String& _str)
 
 bool String::operator<(const String& _str)
 {
-	int size1 = strlen(data);
-	int size2 = strlen(_str.data);
+	int dataLength = strlen(data);
+	int dataLengthTwo = strlen(_str.data);
 
-	if (size1 < size2)// if statement to check if the length of the string is less then the other
-	{
-		return true;
-	}
-	else
+	for (int i = 0; i < dataLength; i++) {	// getting string length and data
+		if (i >= dataLengthTwo) {
+			return false;
+		}
+	
+		if (data[i] > _str.data[i]) {// comparing character everyletter starting from the first string and second string
+			return false; //return false if character is bigger than the other
+		}
+	} 
+	if (dataLengthTwo < dataLength) { // is the datalength smaller than datalength two
 		return false;
+
+	}	return true; // otherwise return true
 }
 	
 
