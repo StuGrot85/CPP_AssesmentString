@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adamk\\Desktop\\Resubmission Assessment 1 and 2\\Assessment 1 and 2\\Solution A3\\CPP_AssesmentString\\Assessment 1\\CPP_Assessment1\\CPP_Assessment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8BB5A6D-DC39-49BF-8E7A-CE9D99ACA38F}|CPP_Assessment1.vcxproj|C:\\Users\\adamk\\Desktop\\Resubmission Assessment 1 and 2\\Assessment 1 and 2\\Solution A3\\CPP_AssesmentString\\Assessment 1\\CPP_Assessment1\\CPP_Assessment1\\String.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8BB5A6D-DC39-49BF-8E7A-CE9D99ACA38F}|CPP_Assessment1.vcxproj|solutionrelative:String.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "String.cpp",
+              "DocumentMoniker": "C:\\Users\\adamk\\Desktop\\Resubmission Assessment 1 and 2\\Assessment 1 and 2\\Solution A3\\CPP_AssesmentString\\Assessment 1\\CPP_Assessment1\\CPP_Assessment1\\String.cpp",
+              "RelativeDocumentMoniker": "String.cpp",
+              "ToolTip": "C:\\Users\\adamk\\Desktop\\Resubmission Assessment 1 and 2\\Assessment 1 and 2\\Solution A3\\CPP_AssesmentString\\Assessment 1\\CPP_Assessment1\\CPP_Assessment1\\String.cpp*",
+              "RelativeToolTip": "String.cpp*",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAAJ4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-08T05:10:42.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

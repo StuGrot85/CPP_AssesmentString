@@ -151,24 +151,30 @@ String& String::operator=(const String& _str)
 	return *this;
 }
 
-bool String::operator<(const String& _str)
+bool String::operator<(const String& _str) //reiterated the code as char* to help dereference
 {
-	int dataLength = strlen(data);
-	int dataLengthTwo = strlen(_str.data);
-
-	for (int i = 0; i < dataLength; i++) {	// getting string length and data
-		if (i >= dataLengthTwo) {
-			return false;
-		}
-	
-		if (data[i] > _str.data[i]) {// comparing character everyletter starting from the first string and second string
-			return false; //return false if character is bigger than the other
-		}
-	} 
-	if (dataLengthTwo < dataLength) { // is the datalength smaller than datalength two
-		return false;
-
-	}	return true; // otherwise return true
+	const char* p1 = data;
+	const char* p2 = _str.data;
+    
+	// Loop till you hit null
+	while (*p1 != '\0' && *p2 != '\0')
+		{
+		// Dereference pointers to compare characters
+		if (*p1 < *p2) return true;
+		if (*p1 > *p2) return false;
+        
+		// Move to next character
+		p1++;
+		p2++;
+	}
+    
+	// If first string has ended and second hasnt, 
+	if (*p1 == '\0' && *p2 != '\0')
+	{
+		return true;
+	}
+    
+	return false;
 }
 	
 

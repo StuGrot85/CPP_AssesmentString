@@ -639,3 +639,28 @@ Test 8 - Operator < = Successful
 Percentage Successful 100%
 
 
+
+
+Thu Jan  8 15:41:20 2026
+
+Test 0 - Length = Successful
+
+Test 1 - Append = Successful
+
+Test 2 - ToLower = Successful
+
+Test 3 - ToUpper = Successful
+
+Test 4 - FindCharacter = Successful
+
+Test 5 - Replace  = Successful
+
+Test 6 - Operator Compare = Successful
+
+Test 7 - Operator [] -  the character of location 0 = s = Successful
+
+Test 8 - Operator < = Successful
+
+Percentage Successful 100%
+
+
